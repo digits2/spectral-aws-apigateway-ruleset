@@ -92,13 +92,6 @@ rules:
       field: discriminator
       function: undefined
 
-  aws-example-tag:
-    description: 'The example tag is not supported by API gateway, but there is no harm in including it.'
-    severity: hint
-    given: $..example
-    then:
-      function: undefined
-
   aws-exclusive-minimum:
     description: 'exclusiveMinimum is not supported by API Gateway'
     severity: error

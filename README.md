@@ -1,5 +1,11 @@
 # Spectral AWS API Gateway Ruleset
 
+## Why a fork in digitS2
+
+To be able to keep track of upstream and reapply our patches on top of it. These rules are used in https://github.com/digits2/lzchecker/ 
+
+## Introduction
+
 When working with AWS API Gateway, it uses a number of features that are a step away from the OpenAPI standard.
 
 Usefully, the features are documented here [AWS API Gateway Important Notes](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-known-issues.html), but
